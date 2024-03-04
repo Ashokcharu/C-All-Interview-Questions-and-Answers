@@ -329,7 +329,7 @@ Here are the answers to all the questions:
    - An anonymous namespace in C++ is a namespace that is not given a name. It is used to declare names that are local to a translation unit, ensuring that they are not visible outside that unit.
 
      
-110. **What is a scope resolution operator?**
+110. **What is a scope resolution operator?**  
     - The scope resolution operator (::) in C++ is used to access names in namespaces or to specify the scope of a member function or variable.
 
 
