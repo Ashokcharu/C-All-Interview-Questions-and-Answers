@@ -305,4 +305,404 @@ Here are the answers to all the questions:
 100. **What is a virtual function table?**
      - A virtual function table (vtable) in C++ is a table of function pointers used to implement polymorphism through virtual functions. Each class with virtual functions has its own vtable.
 
-These are just brief descriptions, and each topic can be further explored in more detail. If you need more information or examples for any specific topic, feel free to ask!
+101. **What is an inline function?**
+   - An inline function in C++ is a function that is expanded in place at the point of call, rather than being called through a function call mechanism. It is used to improve performance by avoiding the overhead of a function call.
+
+102. **What is a const member function?**
+   - A const member function in C++ is a member function that promises not to modify the state of the object it is called on. It is declared using the const keyword after the function signature.
+
+103. **What is a using directive?**
+   - A using directive in C++ is a directive that brings an entire namespace into scope, allowing all names in that namespace to be used without qualification.
+
+104. **What is a using declaration?**
+   - A using declaration in C++ is a declaration that introduces a specific name from a namespace into the current scope, allowing that name to be used without qualification.
+
+105. **What is a namespace alias?**
+   - A namespace alias in C++ is a way to create an alternative name for a namespace. It is useful for shortening long namespace names or for aliasing namespaces from third-party libraries.
+
+106. **What is a global namespace?**
+   - The global namespace in C++ is the namespace that contains all global identifiers. Names defined in the global namespace can be accessed from any part of the program.
+
+107. **What is a local namespace?**
+   - A local namespace in C++ is a namespace that is defined within a block or a function. Names defined in a local namespace are only accessible within that block or function.
+
+108. **What is a nested namespace?**
+   - A nested namespace in C++ is a namespace that is defined within another namespace. Nested namespaces allow for better organization of related names.
+
+109. **What is an anonymous namespace?**
+   - An anonymous namespace in C++ is a namespace that is not given a name. It is used to declare names that are local to a translation unit, ensuring that they are not visible outside that unit.
+
+110. **What is a scope resolution operator?**
+    - The scope resolution operator (::) in C++ is used to access names in namespaces or to specify the scope of a member function or variable.
+
+111. **What is a typeid operator?**
+    - The typeid operator in C++ is used to determine the type of an expression at runtime. It returns a reference to a std::type_info object that contains information about the type.
+
+112. **What is a type cast?**
+    - A type cast in C++ is an operation that converts one type of data into another. It is used to explicitly change the interpretation of a value.
+
+113. **What is a reinterpret cast?**
+    - A reinterpret cast in C++ is a type of type cast that allows for the reinterpretation of the binary representation of an object as if it were of another type.
+
+114. **What is a dynamic cast?**
+    - A dynamic cast in C++ is a type of type cast that performs a runtime check to ensure that the cast is valid. It is typically used for safe downcasting in inheritance hierarchies.
+
+115. **What is a static cast?**
+    - A static cast in C++ is a type of type cast that performs simple conversions between types that do not involve inheritance. It is a compile-time operation and does not perform any runtime checks.
+
+116. **What is a const cast?**
+    - A const cast in C++ is a type of type cast that is used to add or remove the const qualifier from a variable. It is typically used to cast away constness when necessary.
+
+117. **What is a template function?**
+    - A template function in C++ is a function that is parameterized by one or more types. It allows for the creation of generic functions that can operate on different types.
+
+118. **What is a template class?**
+    - A template class in C++ is a class that is parameterized by one or more types. It allows for the creation of generic classes that can operate on different types.
+
+119. **What is a template partial specialization?**
+    - A template partial specialization in C++ is a specialization of a template for a subset of the possible template arguments. It allows for more specialized implementations of a template for specific cases.
+
+120. **What is template metaprogramming?**
+    - Template metaprogramming in C++ is a technique where templates are used to perform computations at compile time. It allows for the generation of code based on template parameters.
+
+121. **What is a template parameter pack?**
+    - A template parameter pack in C++ is a way to accept an arbitrary number of template arguments in a template. It allows for the creation of variadic templates.
+
+122. **What is a variadic template?**
+    - A variadic template in C++ is a template that accepts a variable number of arguments. It allows for the creation of functions and classes that can operate on a varying number of arguments.
+
+123. **What is a SFINAE?**
+    - SFINAE (Substitution Failure Is Not An Error) in C++ is a principle where, during template argument deduction, certain substitution failures are not considered errors and do not cause the program to fail to compile.
+
+124. **What is a CRTP?**
+    - CRTP (Curiously Recurring Template Pattern) in C++ is a design pattern where a base class template is parameterized by a derived class, allowing the base class to access members of the derived class.
+
+125. **What is a lambda expression?**
+    - A lambda expression in C++ is an anonymous function that can capture variables from its surrounding scope. It is used to create functions inline, without the need for a separate function declaration.
+
+126. **What is a capture list?**
+    - A capture list in C++ lambda expressions is used to specify which variables from the surrounding scope should be captured and made available inside the lambda function.
+
+127. **What is a closure?**
+    - A closure in C++ is the combination of a lambda expression and the variables captured by that lambda expression. It allows the lambda function to access and modify variables from its surrounding scope.
+
+128. **What is a generic lambda?**
+    - A generic lambda in C++ is a lambda function that uses auto as the parameter type, allowing it to accept arguments of any type. It is a form of lambda function that is more flexible and easier to use.
+
+129. **What is perfect forwarding?**
+    - Perfect forwarding in C++ is a technique that allows a function template to forward its arguments exactly as they were passed, preserving their lvalue/rvalue nature and const qualification.
+
+130. **What is an rvalue reference?**
+    - An rvalue reference in C++ is a reference that can bind to temporary objects (rvalues). It is used to enable move semantics and perfect forwarding.
+
+131. **What is an lvalue reference?**
+    - An lvalue reference in C++ is a reference that can bind to lvalues (non-temporary objects). It is the traditional form of reference in C++.
+
+132. **What is a const reference?**
+    - A const reference in C++ is a reference that refers to a constant object. It allows access to the object's value but prevents modification.
+
+133. **What is a constexpr function?**
+    - A constexpr function in C++ is a function that can be evaluated at compile time. It must adhere to certain restrictions, such as having a body that consists of a single return statement.
+
+134. **What is a static_assert?**
+    - A static_assert in C++ is a compile-time assertion that causes a compilation error if its condition is not true. It is used to enforce compile-time constraints.
+
+135. **What is a tuple?**
+    - A tuple in C++ is a fixed-size collection of heterogeneous values. It allows multiple values of different types to be grouped together into a single object.
+
+136. **What is a bind function?**
+    - The bind function in C++ is used to create a function object that binds arguments to a function, allowing for partial function application and delayed function invocation.
+
+137. **What is a forward function?**
+    - The forward function in C++ is used to forward arguments to another function, preserving their lvalue/rvalue nature and const qualification.
+
+138. **What is a back function?**
+    - There is no standard "back" function in C++. It's possible you may be referring to something specific in a library or context that I'm not familiar with.
+
+139. **What is an emplace function?**
+    - The emplace function in C++ is used to construct an element in place within a container, avoiding unnecessary copies or moves.
+
+140. **What is an emplace_back function?**
+    - The emplace_back function in C++ is used to construct an element at the end of a container, avoiding unnecessary copies or moves.
+
+141. **What is an emplace_front function?**
+    - There is no standard "emplace_front" function in C++. It's possible you may be referring to something specific in a library or context that I'm not familiar with.
+
+142. **What is a stable_sort function?**
+    - The stable_sort function in C++ is used to sort elements in a container while preserving the relative order of elements with equal values.
+
+143. **What is a partition function?**
+    - The partition function in C++ is used to partition elements in a container based on a predicate, such that elements for which the predicate returns true precede elements for which it returns false.
+
+144. **What is a copy_if function?**
+    - The copy_if function in C++ is used to copy elements from one container to another if they satisfy a given condition.
+
+145. **What is a remove_if function?**
+    - The remove_if function in C++ is used to remove elements from a container that satisfy a given condition, shifting the remaining elements to fill the removed elements.
+
+146. **What is a unique function?**
+    - The unique function in C++ is used to remove consecutive duplicate elements from a container.
+
+147. **What is a binary function?**
+    - A binary function in C++ is a function that takes two arguments and returns a single value.
+
+148. **What is a unary function?**
+    - A unary function in C++ is a function that takes a single argument and returns a single value.
+
+149. **What is a functional library?**
+    - A functional library in C++ is a library that provides functions and function objects for functional programming, such as map, filter, and reduce operations.
+
+150. **What is a std::unique_ptr?**
+    - std::unique_ptr in C++ is a smart pointer that owns and manages a dynamically allocated object. It ensures that the object is deleted when the std::unique_ptr goes out of scope.
+
+151. **What is a std::shared_ptr?**
+    - std::shared_ptr in C++ is a smart pointer that owns and manages a dynamically allocated object through shared ownership. It allows multiple std::shared_ptr instances to share ownership of the same object.
+
+152. **What is a std::weak_ptr?**
+    - std::weak_ptr in C++ is a smart pointer that provides a non-owning weak reference to an object managed by std::shared_ptr. It is used to break cycles in shared ownership.
+
+153. **What is a std::make_shared?**
+    - std::make_shared in C++ is a function template that creates a std::shared_ptr with a dynamically allocated object. It is more efficient than using std::shared_ptr constructor directly.
+
+154. **What is a std::make_unique?**
+    - std::make_unique in C++ is a function template that creates a std::unique_ptr with a dynamically allocated object. It is more efficient than using std::unique_ptr constructor directly.
+
+155. **What is a std::unique_lock?**
+    - std::unique_lock in C++ is a class that provides a mechanism for exclusive locking of a std::mutex. It allows for more flexibility than std::lock_guard.
+
+156. **What is a std::lock_guard?**
+    - std::lock_guard in C++ is a class that provides a mechanism for exclusive locking of a std::mutex. It ensures that the mutex is unlocked when the std::lock_guard goes out of scope.
+
+157. **What is a std::condition_variable?**
+    - std::condition_variable in C++ is a synchronization primitive that allows threads to wait until a certain condition is met before proceeding. It is typically used with std::mutex to implement thread synchronization.
+
+158. **What is a std::atomic?**
+    - std::atomic in C++ is a template class that provides atomic operations for a specified type. It ensures that operations on the object are performed atomically, without interference from other threads.
+
+159. **What is a std::thread?**
+    - std::thread in C++ is a class that represents a thread of execution. It is used to create and manage threads in a multithreaded program.
+
+160. **What is a std::mutex?**
+    - std::mutex in C++ is a synchronization primitive that provides exclusive access to a shared resource. It is used to protect shared data from being accessed by multiple threads simultaneously.
+
+161. **What is a std::recursive_mutex?**
+    - std::recursive_mutex in C++ is a variant of std::mutex that allows the same thread to lock the mutex multiple times recursively. It is used to protect against deadlock in recursive locking scenarios.
+
+162. **What is a std::chrono?**
+    - std::chrono in C++ is a library that provides facilities for working with time durations and time points. It allows for high-precision time measurements and conversions between different time units.
+
+163. **What is a std::future?**
+    - std::future in C++ is a class that represents a future value that will be available at some point in the future. It is typically used with std::async to retrieve the result of an asynchronous operation.
+
+164. **What is a std::async?**
+    - std::async in C++ is a function template that creates a std::future representing the result of an asynchronous operation. It is used to launch a function asynchronously and retrieve its result later.
+
+165. **What is a std::promise?**
+    - std::promise in C++ is a class that allows a value or an exception to be set as the result of a std::future. It is used to communicate the result of an asynchronous operation between threads.
+
+166. **What is a std::function?**
+    - std::function in C++ is a polymorphic function wrapper that can store, copy, and invoke any callable target, such as a function, lambda, or function object.
+
+167. **What is a std::bind?**
+    - std::bind in C++ is a function template that creates a function object that binds arguments to a function. It is used to create callable objects with fixed arguments.
+
+168. **What is a std::ref?**
+    - std::ref in C++ is a function template that creates a std::reference_wrapper object, which allows a reference to be treated as an object that can be copied and stored.
+
+169. **What is a std::move?**
+    - std::move in C++ is a function that converts an lvalue into an rvalue, allowing it to be moved instead of copied. It is used to enable move semantics.
+
+170. **What is a std::copy?**
+    - std::copy in C++ is an algorithm that copies elements from one range to another. It is used to copy elements from one container to another or within the same container.
+
+171. **What is a std::transform?**
+    - std::transform in C++ is an algorithm that applies a function to each element in a range and stores the result in another range. It is used to transform elements in a container.
+
+172. **What is a std::accumulate?**
+    - std::accumulate in C++ is an algorithm that computes the sum of a range of elements. It is used to calculate the sum of elements in a container.
+
+173. **What is a std::count?**
+    - std::count in C++ is an algorithm that counts the number of occurrences of a value in a range. It is used to count the occurrences of a specific value in a container.
+
+174. **What is a std::find?**
+    - std::find in C++ is an algorithm that searches for a value in a range and returns an iterator to the first occurrence of the value, or the end iterator if the value is not found.
+
+175. **What is a std::replace?**
+    - std::replace in C++ is an algorithm that replaces all occurrences of a value in a range with another value. It is used to perform a simple search and replace operation on a container.
+
+176. **What is a std::fill?**
+    - std::fill in C++ is an algorithm that assigns a value to all elements in a range. It is used to fill a container with a specific value.
+
+177. **What is a std::sort?**
+    - std::sort in C++ is an algorithm that sorts the elements in a range. It is used to sort the elements of a container in ascending order.
+
+178. **What is an interface class?**
+    - An interface class in C++ is a class that contains only pure virtual functions. It is used to define an interface that other classes must implement.
+
+179. **What is a const object?**
+    - A const object in C++ is an object that is declared as const, meaning its value cannot be modified after initialization.
+
+180. **What is a volatile object?**
+    - A volatile object in C++ is an object that is declared as volatile, meaning its value may change at any time, even if it appears not to be modified by the program.
+
+181. **What is a static object?**
+    - A static object in C++ is an object that is declared as static, meaning it is allocated once for the entire duration of the program and retains its value between function calls.
+
+182. **What is a unique_lock?**
+    - std::unique_lock in C++ is a class that provides a mechanism for exclusive locking of a std::mutex. It allows for more flexibility than std::lock_guard.
+
+183. **What is a scoped_lock?**
+    - There is no standard "scoped_lock" in C++. It's possible you may be referring to something specific in a library or context that I'm not familiar with.
+
+184. **What is a recursive_lock?**
+    - There is no standard "recursive_lock" in C++. It's possible you may be referring to something specific in a library or context that I'm not familiar with.
+
+185. **What is a conditional_variable?**
+    - There is no standard "conditional_variable" in C++. It's possible you may be referring to std::condition_variable, which is a synchronization primitive.
+
+186. **What is a thread-safe singleton?**
+    - A thread-safe singleton in C++ is a design pattern for ensuring that a class has only one instance and that the instance is created in a thread-safe manner.
+
+187. **What is a thread pool?**
+    - A thread pool in C++ is a pool of pre-initialized threads that are used to perform tasks concurrently. It is used to improve the efficiency of multi-threaded programs by reusing threads.
+
+188. **What is a factory pattern?**
+    - The factory pattern in C++ is a design pattern that defines an interface for creating objects, but allows subclasses to alter the type of objects that will be created.
+
+189. **What is a proxy pattern?**
+    - The proxy pattern in C++ is a design pattern that provides a surrogate or placeholder object to control access to another object. It is used to add a level of indirection to manage access to the real object.
+
+190. **What is a decorator pattern?**
+    - The decorator pattern in C++ is a design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
+
+191. **What is a adapter pattern?**
+    - The adapter pattern in C++ is a design pattern that allows incompatible interfaces to work together. It involves creating a wrapper class that converts the interface of a class into another interface that a client expects.
+
+192. **What is a observer pattern?**
+    - The observer pattern in C++ is a design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of any state changes, usually by calling one of their methods.
+
+193. **What is a strategy pattern?**
+    - The strategy pattern in C++ is a design pattern that defines a family of algorithms, encapsulates each algorithm, and makes the algorithms interchangeable within that family.
+
+194. **What is a visitor pattern?**
+    - The visitor pattern in C++ is a design pattern that allows adding new operations to existing classes without modifying those classes. It is useful when the classes are not expected to change often but new operations are.
+
+195. **What is a builder pattern?**
+    - The builder pattern in C++ is a design pattern that is used to construct a complex object step by step. It separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+196. **What is a composite pattern?**
+    - The composite pattern in C++ is a design pattern that is used to treat both individual objects and compositions of objects uniformly. It allows clients to treat individual objects and compositions of objects in a uniform manner.
+
+197. **What is a iterator pattern?**
+    - The iterator pattern in C++ is a design pattern that is used to provide a way to access the elements of a collection sequentially without exposing its underlying representation.
+
+198. **What is a mediator pattern?**
+    - The mediator pattern in C++ is a design pattern that is used to define an object that encapsulates how a set of objects interact. It promotes loose coupling between the objects by removing direct references between them.
+
+199. **What is a memento pattern?**
+    - The memento pattern in C++ is a design pattern that allows the state of an object to be saved and restored without exposing its internal representation.
+
+200. **What is a command pattern?**
+     - The command pattern in C++ is a design pattern that is used to encapsulate a request as an object, thereby allowing for parameterization of clients with different requests, queuing of requests, and logging of requests.
+
+201. **What is a flyweight pattern?**
+    - The flyweight pattern in C++ is a design pattern that is used to minimize memory usage and improve performance by sharing as much as possible with similar objects.
+
+202. **What is a facade pattern?**
+    - The facade pattern in C++ is a design pattern that provides a simplified interface to a complex subsystem. It hides the complexities of the subsystem and provides a single interface for the client to interact with.
+
+203. **What is a state pattern?**
+    - The state pattern in C++ is a design pattern that allows an object to change its behavior when its internal state changes. It is used to represent state-dependent behavior in a more organized manner.
+
+204. **What is a chain of responsibility pattern?**
+    - The chain of responsibility pattern in C++ is a design pattern that allows an object to pass a request along a chain of handlers. Each handler decides either to process the request or to pass it along the chain.
+
+205. **What is a interpreter pattern?**
+    - The interpreter pattern in C++ is a design pattern that is used to define a grammar for interpreting a language and to provide a way to evaluate sentences in that language.
+
+206. **What is an abstract factory pattern?**
+    - The abstract factory pattern in C++ is a design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+207. **What is a singleton pattern?**
+    - The singleton pattern in C++ is a design pattern that ensures a class has only one instance and provides a global point of access to that instance.
+
+208. **What is a dependency injection?**
+    - Dependency injection in C++ is a technique in which the dependencies of a class are provided from the outside rather than being created within the class itself. It helps to achieve loose coupling and easier testing.
+
+209. **What is inversion of control?**
+    - Inversion of control (IoC) in C++ is a design principle in which the control flow of a program is inverted: instead of a program controlling the flow of execution, the control flow is delegated to a framework or container.
+
+210. **What is agile methodology?**
+    - Agile methodology in software development is an approach that emphasizes iterative and incremental development, collaboration between cross-functional teams, and adaptability to change.
+
+211. **What is Scrum?**
+    - Scrum is a framework for agile software development that emphasizes iterative and incremental development, collaboration, and flexibility. It defines roles, events, and artifacts to facilitate the development process.
+
+212. **What is the Agile Manifesto?**
+    - The Agile Manifesto is a set of principles for agile software development, emphasizing customer collaboration, responding to change, and delivering working software frequently.
+
+213. **What is a user story?**
+    - A user story in agile development is a concise description of a software feature from the perspective of the end-user. It is used to capture the user's requirements and is typically written in a simple, non-technical language.
+
+214. **What is a sprint?**
+    - A sprint in agile development is a time-boxed iteration of work, typically lasting one to four weeks, during which a development team completes a set of predefined tasks.
+
+215. **What is a retrospective?**
+    - A retrospective in agile development is a meeting held at the end of a sprint to review the team's performance, identify what went well and what could be improved, and make plans for future sprints.
+
+216. **What is continuous integration?**
+    - Continuous integration (CI) is a software development practice in which team members integrate their work frequently, usually several times a day. Each integration is verified by automated build and test processes.
+
+217. **What is continuous deployment?**
+    - Continuous deployment is a software development practice in which code changes are automatically deployed to production environments after passing automated tests.
+
+218. **What is test-driven development?**
+    - Test-driven development (TDD) is a software development practice in which tests are written before the code. The code is then written to make the tests pass, ensuring that the code is both correct and testable.
+
+219. **What is behavior-driven development?**
+    - Behavior-driven development (BDD) is a software development approach that extends TDD by defining the desired behavior of a system using natural language specifications that can be understood by both technical and non-technical stakeholders.
+
+220. **What is refactoring?**
+    - Refactoring is the process of restructuring existing computer code without changing its external behavior. It is done to improve code readability, maintainability, and performance.
+
+121. **What is a design pattern?**
+    - A design pattern is a general reusable solution to a commonly occurring problem in software design. It describes the problem, the solution, when to apply the solution, and its consequences.
+
+122. **What is a code smell?**
+    - A code smell is a surface indication that there might be a problem in the design of a software system. It is usually a symptom of a deeper problem and may indicate the need for refactoring.
+
+123. **What are SOLID principles?**
+    - SOLID is an acronym that stands for five principles of object-oriented design: Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
+
+224. **What is the KISS principle?**
+    - The KISS principle (Keep It Simple, Stupid) is a design principle that states that most systems work best if they are kept simple rather than made complicated. It emphasizes simplicity and clarity in design.
+
+225. **What is the YAGNI principle?**
+    - The YAGNI principle (You Aren't Gonna Need It) is a principle of extreme programming (XP) that states that you should not add functionality until it is actually needed. It encourages simplicity and avoids over-engineering.
+
+226. **What is the DRY principle?**
+    - The DRY principle (Don't Repeat Yourself) is a software development principle that states that duplication in logic should be eliminated by abstraction, such as using functions or classes, to avoid redundancy and improve maintainability.
+
+227. **What is composition over inheritance?**
+    - Composition over inheritance is a principle in object-oriented design that suggests favoring object composition (has-a relationship) over class inheritance (is-a relationship) to achieve code reuse and flexibility.
+
+232. **What is coupling?**
+    - Coupling is a measure of how much one class or module knows about another. Loose coupling is desirable as it allows for easier maintenance and testing.
+
+133. **What is cohesion?**
+    - Cohesion is a measure of how strongly related and focused the responsibilities of a single module or class are. High cohesion indicates that the class or module has a single, well-defined purpose.
+
+134. **What is SRP?**
+    - SRP stands for Single Responsibility Principle, which is one of the SOLID principles. It states that a class should have only one reason to change, meaning that it should have only one responsibility.
+
+135. **What is OCP?**
+    - OCP stands for Open/Closed Principle, which is one of the SOLID principles. It states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+
+136. **What is LSP?**
+    - LSP stands for Liskov Substitution Principle, which is one of the SOLID principles. It states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+
+137. **What is ISP?**
+    - ISP stands for Interface Segregation Principle, which is one of the SOLID principles. It states that clients should not be forced to depend on interfaces they do not use.
+
+138. **What is DIP?**
+    - DIP stands for Dependency Inversion Principle, which is one of the SOLID principles. It states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details. Details should depend on abstractions.      
