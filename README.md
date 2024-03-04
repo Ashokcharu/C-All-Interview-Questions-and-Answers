@@ -1,4 +1,4 @@
-# C-All-Interview-Questions-and-Answers
+# C++-All-Interview-Questions-and-Answers
 Here are the answers to all the questions:
 
 1. **What is C++?**
