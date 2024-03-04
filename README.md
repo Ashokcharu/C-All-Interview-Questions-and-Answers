@@ -328,14 +328,18 @@ Here are the answers to all the questions:
 109. **What is an anonymous namespace?**
    - An anonymous namespace in C++ is a namespace that is not given a name. It is used to declare names that are local to a translation unit, ensuring that they are not visible outside that unit.
 
+     
 110. **What is a scope resolution operator?**
     - The scope resolution operator (::) in C++ is used to access names in namespaces or to specify the scope of a member function or variable.
+
 
 111. **What is a typeid operator?**
     - The typeid operator in C++ is used to determine the type of an expression at runtime. It returns a reference to a std::type_info object that contains information about the type.
 
+
 112. **What is a type cast?**
     - A type cast in C++ is an operation that converts one type of data into another. It is used to explicitly change the interpretation of a value.
+
 
 113. **What is a reinterpret cast?**
     - A reinterpret cast in C++ is a type of type cast that allows for the reinterpretation of the binary representation of an object as if it were of another type.
