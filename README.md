@@ -95,9 +95,7 @@ Here are the answers to all the questions:
     - An array in C++ is a fixed-size collection of elements of the same data type, while a vector is a dynamic array that can grow or shrink in size.
 
 32. **What is a stack?**
-    - A stack in C++ is a data structure that follows the Last In
-
-, First Out (LIFO) principle, where elements are inserted and removed from the same end (the top).
+    - A stack in C++ is a data structure that follows the Last In First Out (LIFO) principle, where elements are inserted and removed from the same end (the top).
 
 33. **What is a queue?**
     - A queue in C++ is a data structure that follows the First In, First Out (FIFO) principle, where elements are inserted at the rear and removed from the front.
@@ -689,20 +687,20 @@ Here are the answers to all the questions:
 232. **What is coupling?**
     - Coupling is a measure of how much one class or module knows about another. Loose coupling is desirable as it allows for easier maintenance and testing.
 
-133. **What is cohesion?**
+233. **What is cohesion?**
     - Cohesion is a measure of how strongly related and focused the responsibilities of a single module or class are. High cohesion indicates that the class or module has a single, well-defined purpose.
 
-134. **What is SRP?**
+234. **What is SRP?**
     - SRP stands for Single Responsibility Principle, which is one of the SOLID principles. It states that a class should have only one reason to change, meaning that it should have only one responsibility.
 
-135. **What is OCP?**
+235. **What is OCP?**
     - OCP stands for Open/Closed Principle, which is one of the SOLID principles. It states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
 
-136. **What is LSP?**
+236. **What is LSP?**
     - LSP stands for Liskov Substitution Principle, which is one of the SOLID principles. It states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
 
-137. **What is ISP?**
+237. **What is ISP?**
     - ISP stands for Interface Segregation Principle, which is one of the SOLID principles. It states that clients should not be forced to depend on interfaces they do not use.
 
-138. **What is DIP?**
+238. **What is DIP?**
     - DIP stands for Dependency Inversion Principle, which is one of the SOLID principles. It states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details. Details should depend on abstractions.      
