@@ -203,9 +203,7 @@ Here are the answers to all the questions:
     - The constexpr keyword in C++ is used to indicate that a function or variable can be evaluated at compile time.
 
 68. **What is a noexcept keyword?**
-    - The noexcept keyword in C++ is used to specify that a function
-
- does not throw exceptions.
+    - The noexcept keyword in C++ is used to specify that a function does not throw exceptions.
 
 69. **What is an auto keyword?**
     - The auto keyword in C++ is used to automatically deduce the type of a variable from its initializer.
